@@ -1,0 +1,37 @@
+{
+  "name": "@leandrowcs/webdriver-io-testing",
+  "version": "1.0.0",
+  "description": "Automated software testing with WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandrowcs/webdriver-io-testing.git"
+  },
+  "keywords": [
+    "Automation",
+    "Webdriver"
+  ],
+  "author": "Leandro Wanderley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leandrowcs/webdriver-io-testing/issues"
+  },
+  "homepage": "https://github.com/leandrowcs/webdriver-io-testing#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.9",
+    "@babel/register": "^7.14.5",
+    "@wdio/cli": "^7.9.0",
+    "@wdio/local-runner": "^7.9.0",
+    "@wdio/mocha-framework": "^7.9.0",
+    "@wdio/spec-reporter": "^7.9.0",
+    "@wdio/sync": "^7.9.0",
+    "chromedriver": "^92.0.1",
+    "prettier": "^2.3.2",
+    "wdio-chromedriver-service": "^7.2.0"
+  }
+}
