@@ -20,19 +20,16 @@ describe('First Steps with WebdriverIO', () => {
         h1.waitForExist()
         expect(h1).toBeDisplayed()
     })
-
     it('P should be visible', () => {
         const p = $('p')
         p.waitForExist()
         expect(p).toBeDisplayed()
     })
-
     it('check link value', () => {
         const link = $('a')
         link.waitForExist()
         expect(link).toHaveLink('https://www.iana.org/domains/example')
     })
-
     it('Get element text', () => {
         const text = $('h1').getText()
         const element = $('h1')

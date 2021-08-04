@@ -4,7 +4,8 @@
   "description": "Automated software testing with WebdriverIO",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "test": "wdio wdio.conf.js",
+    "test-spec": "wdio wdio.conf.js --spec"
   },
   "repository": {
     "type": "git",
