@@ -1,6 +1,6 @@
 # Webdriver.io Testing
 
-Esse é um pequeno projeto com exemplos de uso do [WebdriverIO](https://webdriver.io) para automaçao de testes web.
+Esse é um pequeno projeto com exemplos de testes usando o [WebdriverIO](https://webdriver.io) para automaçao de testes web.
 
 ### Requisitos
 * Instale o [Node.js](https://nodejs.org/en/download/)
